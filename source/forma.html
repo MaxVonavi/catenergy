@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>форма подбора программы</title>
+</head>
+
+<body class="body">
+
+  <header>
+
+    <div class="logo">
+      <img src="../assets/logo-desktop.svg" alt="логотип веселый супер кот">
+    </div>
+
+    <nav class="main-nav">
+      <ul class="main-nav__ul">
+        <li class="main-nav__item">
+          <a href="index.html" class="main__link">главная</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="catalog.html" class="main__link">каталог продукции</a>
+        </li>
+        <li class="main-nav__item main-nav__item--current">
+          <a href="#" class="main__link">подбор программы</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="programm">
+      <h1 class="h1 visibility-hidden">Подбор программы для вашего питомца</h1>
+      <div class="programm__wrapper">
+        <p class="programm__title">Подбор программы</p>
+        <p class="programm__slogan">Занялся собой? займись и котом!</p>
+      </div>
+
+      <form class="programm__form" action="https://echo.htmlacademy.ru" method="post">
+
+        <div class="programm_wrapper">
+          <label class="programm__label">
+            Имя:*
+            <input class="programm__input" type="text" placeholder="Барсик" required>
+          </label>
+          <label class="programm__label">
+            вес (кг):*
+            <input class="programm__input" type="text" placeholder="7" required>
+          </label>
+          <label class="programm__label">
+            Взраст (лет):
+            <input class="programm__input" type="text" placeholder="7">
+          </label>
+        </div>
+
+        <div class="programm__wrapper">
+          <label class="programm__label">
+            <input class="programm__radio" name="programm" type="radio" checked>
+            похудение
+          </label>
+          <label class="programm__label">
+            <input class="programm__radio" name="programm" type="radio">
+            набор массы
+          </label>
+          <label class="programm__label">
+            <input class="programm__radio" name="programm" type="radio">
+            не знаю (нужен ваш совет)
+          </label>
+        </div>
+
+        <p class="subtitle">Контактные данные (владельца кота)</p>
+        <label class="programm__label">
+          E-mail:*
+          <input class="programm__input" type="email" placeholder="кuklachev@gmail.com" required>
+        </label>
+        <label class="programm__label">
+          Телефон:*
+          <input class="programm__input" type="phone" placeholder="8 (960) 900-60-90" required>
+        </label>
+
+        <p class="subtitle">Комментарий</p>
+        <textarea class="programm__textarea" name="" id="" cols="60" rows="20" placeholder="Расскажите обо всех повадках кота"></textarea>
+
+        <p class="subtitle">Дополнительно</p>
+        <ul class="programm__list">
+          <li class="programm_item">
+            <label class="programm__label">
+              <input class="programm__check" type="checkbox" checked>
+              сахарозаменитель
+            </label>
+          </li>
+          <li class="programm_item">
+            <label class="programm__label">
+              <input class="programm__check" type="checkbox">
+              питьевая вода
+            </label>
+          </li>
+          <li class="programm_item">
+            <label class="programm__label">
+              <input class="programm__check" type="checkbox">
+              молоко
+            </label>
+          </li>
+          <li class="programm_item">
+            <label class="programm__label">
+              <input class="programm__check" type="checkbox">
+              витамины
+            </label>
+          </li>
+        </ul>
+
+        <button type="submit" class="btn btn--green">отправить заявку</button>
+        <p class="programm__tiny">* — Обязательные поля</p>
+
+      </form>
+
+
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="contacts">
+      <h2 class="h2 visibility-hidden">Контакты</h2>
+      <div class="contacts__wrapper">
+        <p class="contacts__title">приглашаем к сотрудничеству дилеров!</p>
+        <p class="contacts_text">ул. Большая Конюшенная, д. 19/8</p>
+        <p class="contacts_text">Санкт-Петербург</p>
+      </div>
+    </div>
+
+
+
+    <img src="../assets/footer-logo 2.svg" alt="лого кат энерджи" class="footer__logo">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <img src="../assets/icon_vkontakte.svg" alt="наша группа в VK" class="footer__social">
+      </li>
+      <li class="footer__item">
+        <img src="../assets/icon_instagram.svg" alt="наша группа в instagram" class="footer__social">
+      </li>
+      <li class="footer__item">
+        <img src="../assets/icon_facebook.svg" alt="наша группа в facebook" class="footer__social">
+      </li>
+    </ul>
+    <img src="../assets/logo_html.svg" alt="лого кат энерджи" class="footer__logo footer__logo--html">
+
+  </footer>
+  
+</body>
+
+</html>
