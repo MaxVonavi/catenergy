@@ -11,6 +11,7 @@
     "gulp-plumber": "1.2.1",
     "gulp-postcss": "9.0.0",
     "gulp-sourcemaps": "3.0.0",
+    "linthtml-config-htmlacademy": "^1.0.3",
     "postcss": "8.2.8",
     "stylelint": "13.13.1",
     "stylelint-config-htmlacademy": "0.1.10"
